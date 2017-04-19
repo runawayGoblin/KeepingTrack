@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{B52A268C-500B-4C3E-81E7-4E40A7AEA34C}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="../../../../KeepingTrack/LoginPage.xaml.cs" Line="37" Column="1" />
+      <File FileName="../../../../KeepingTrack/SignUpPage.xaml.cs" Line="22" Column="4" />
+      <File FileName="../../../../KeepingTrack/LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="../../../../KeepingTrack/SignUpPage.xaml" Line="18" Column="73" />
+      <File FileName="../../../../Droid/google-services.json" Line="3" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AuthSample" expanded="True" selected="True" />
+          <Node name="KeepingTrack" expanded="True">
+            <Node name="KeepingTrack" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="LoginPage.xaml" expanded="True" />
+              <Node name="SignUpPage.xaml" expanded="True" />
+            </Node>
+            <Node name="KeepingTrack.Droid" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AuthSample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CD5E673A-F8FA-4056-8294-E47B02EA4197" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

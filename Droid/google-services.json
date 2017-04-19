@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "738984898597",
+    "firebase_url": "https://keepingtrack-467c6.firebaseio.com",
+    "project_id": "keepingtrack-467c6",
+    "storage_bucket": "keepingtrack-467c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738984898597:android:671255882d4a3479",
+        "android_client_info": {
+          "package_name": "com.morganyoung.keepingtrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738984898597-e98sodegj29mmd85jd4pech15frt7u7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.morganyoung.keepingtrack",
+            "certificate_hash": "646555a71e5ebb237294dc7510a69de69261da04"
+          }
+        },
+        {
+          "client_id": "738984898597-gq1ij5dlp6i7m38i3gbntgmrrt30krnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzQP4YLVzeXzVaJ5U-Nikhu1ofxlnjDAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738984898597-tu3hjo97gl52v8legsp74ula5heu8m4q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.morganyoung.keepingtrack"
+              }
+            },
+            {
+              "client_id": "738984898597-gq1ij5dlp6i7m38i3gbntgmrrt30krnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

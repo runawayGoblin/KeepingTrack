@@ -1,0 +1,7 @@
+/Users/moyo/Projects/KeepingTrack/UITests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/moyo/Projects/KeepingTrack/UITests/bin/Debug/KeepingTrack.UITests.dll.mdb
+/Users/moyo/Projects/KeepingTrack/UITests/bin/Debug/KeepingTrack.UITests.dll
+/Users/moyo/Projects/KeepingTrack/UITests/obj/Debug/KeepingTrack.UITests.dll
+/Users/moyo/Projects/KeepingTrack/UITests/obj/Debug/KeepingTrack.UITests.dll.mdb
+/Users/moyo/Projects/KeepingTrack/UITests/bin/Debug/nunit.framework.dll
+/Users/moyo/Projects/KeepingTrack/UITests/bin/Debug/Xamarin.UITest.dll

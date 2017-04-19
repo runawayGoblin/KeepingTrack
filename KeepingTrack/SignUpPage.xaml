@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KeepingTrack.SignUpPage" BackgroundColor="#3498DB">
+
+
+
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="StartAndExpand" Padding="25" >
+			<!-- HERE LIES something to buy use space, I figured this would be the easiest
+					way to get space at the top of the page, with out having a toolbar, 
+					which i feel is unnesicary for the sign up/login process-->
+			<Label Text="ROOOM" IsVisible="true" FontSize="15" TextColor="#3498DB"/>
+			
+			<!--Adding the actual content the user will see and interact with -->
+
+			<!--HERE LIES; Entry boxes and their respetive labels-->
+			<Button Text="&lt;" HorizontalOptions="Start" Clicked="OnBackBtnClick" TextColor="White" FontSize="30"/>
+			<Label HorizontalOptions="Center" Text="Sign Up" TextColor="White" FontSize="25"/>
+			<Label Text="   Email" HorizontalOptions="Start" TextColor="White"/>
+			<Entry x:Name="emailEntry"  Placeholder="email@example.com" TextColor="#3498DB"/>
+			<Label Text="   Password" HorizontalOptions="Start" TextColor="White"/>
+			<Entry x:Name="password1Entry" IsPassword="true" Placeholder="...." TextColor="#3498DB"/>
+			<Label Text="   Re-Enter Password" HorizontalOptions="Start" TextColor="White"/>
+			<Entry x:Name="password2Entry" IsPassword="true" Placeholder="...." TextColor="#3498DB"/>
+
+			<!-- HERE LIES: the submit button -->
+			<Label Text="ROOOM" IsVisible="true" FontSize="25" TextColor="#3498DB"/>
+			<Button  HorizontalOptions="Center" Text="Create Account" Clicked="OnCreateAcctBtnClick" BackgroundColor="White" WidthRequest="200.0" TextColor="#3498DB" />
+			<Label x:Name="errMsgLabel"  Text="idk"  IsVisible="false" TextColor="White"/>
+			
+			
+			
+			
+		</StackLayout>
+		
+	</ContentPage.Content>
+</ContentPage>
