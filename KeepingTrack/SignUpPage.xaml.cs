@@ -38,6 +38,13 @@ namespace KeepingTrack
 			emailE = this.FindByName<Entry>("emailEntry");
 			password1E = this.FindByName<Entry>("password1Entry");
 			password2E = this.FindByName<Entry>("password2Entry");
+			email = emailE.Text;
+			password1 = password1E.Text;
+			password2 = password2E.Text;
+
+
+			//try catch 
+
 
 
 

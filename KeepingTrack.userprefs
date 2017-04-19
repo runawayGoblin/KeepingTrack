@@ -3,7 +3,7 @@
     <Files>
       <File FileName="iOS/FirebaseAuthImpl.cs" Line="11" Column="47" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="KeepingTrack/SignUpPage.xaml.cs" Line="41" Column="4" />
+      <File FileName="KeepingTrack/SignUpPage.xaml.cs" Line="46" Column="16" />
       <File FileName="KeepingTrack/SignUpPage.xaml" Line="25" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
