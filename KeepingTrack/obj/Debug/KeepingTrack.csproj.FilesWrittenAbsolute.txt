@@ -3,10 +3,12 @@
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.KeepingTrackPage.xaml
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.LoginPage.xaml
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.SignUpPage.xaml
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.NewCoachPage.xaml
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.App.xaml.g.cs
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.KeepingTrackPage.xaml.g.cs
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.LoginPage.xaml.g.cs
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.SignUpPage.xaml.g.cs
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.NewCoachPage.xaml.g.cs
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/bin/Debug/KeepingTrack.dll.mdb
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/bin/Debug/KeepingTrack.dll
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.dll

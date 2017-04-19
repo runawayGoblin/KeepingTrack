@@ -96,7 +96,7 @@ namespace KeepingTrack
 				//errMsg.Text = "Acct Added";
 
 				//real processes 
-				App.Current.MainPage = new KeepingTrackPage();
+				App.Current.MainPage = new NewCoachPage();
 
 
 			}

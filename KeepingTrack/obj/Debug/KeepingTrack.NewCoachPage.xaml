@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KeepingTrack.NewCoachPage" Title="New Coach Page" BackgroundColor="#3498DB">
+
+
+	<ContentPage.Content >
+		<StackLayout VerticalOptions="StartAndExpand"  Padding="60" >
+			<Label Text="Buy me room" IsVisible="true" FontSize="10" TextColor="#3498DB"/>
+			<Label HorizontalOptions="Center" Text="New Coach Information" TextColor="White" FontSize="25"/>
+			<Label Text="Buy me room" IsVisible="true" FontSize="15" TextColor="#3498DB"/>
+			
+			<Label  Text="First Name" TextColor="White"/>
+			<Entry	x:Name="fNameEntry"  Placeholder= "first name" TextColor="#3498DB" BackgroundColor="White"/>
+			<Label  Text="Last Name" TextColor="White" />
+			<Entry 	x:Name="lNameEntry" BackgroundColor="White" Placeholder="last name" TextColor="#3498DB"  />
+			<Label  Text="School Name" TextColor="White" />
+			<Entry 	x:Name="schoolEntry"   BackgroundColor="White" Placeholder="school" TextColor="#3498DB"  />
+
+
+			<Label Text="ROOOM" IsVisible="true" FontSize="25" TextColor="#3498DB"/>
+			<Button Text="Create Account" Clicked="OnBtnClick" HorizontalOptions="Center" BackgroundColor="White"  TextColor="#3498DB" WidthRequest="200" />
+			<Label x:Name="errMsgLabel"  Text="FILLER"  IsVisible="false" TextColor="White"/>
+			
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
