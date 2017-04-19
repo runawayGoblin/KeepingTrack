@@ -11,21 +11,47 @@ namespace KeepingTrack
 		{
 			InitializeComponent();
 		}
-		public Label errMsg;
+
 		public Button logInBtn;
 
 
 		 void OnLoginBtnClick(object sender, System.EventArgs e)
 		{
-			//throw new NotImplementedException();
-			logInBtn = (Button)sender;
 
-		 	errMsg = this.FindByName<Label>("errMsgLabel");
-		 	//errMsg.IsVisible= true;
+			//VARIABLES
+			Entry emailE, passwordE;
+			emailE = this.FindByName<Entry>("emailEntry");
+			passwordE = this.FindByName<Entry>("passwordEntry");
 
-			string email = "sfoltz1@carthage.edu";
-			string password = "Kn33socks";
-			//string name = "Morgan";
+			string email, password;
+			email = emailE.Text;
+			password = passwordE.Text;
+
+			Label errMsg;
+			errMsg = this.FindByName<Label>("errMsgLabel");
+
+			//TEST TO SEE IF VALS ARE HERE
+			//must do this before trying to log in 
+			try
+			{
+				if (email == string.Empty)
+				{
+					throw new MISSINGINFOEXECPTION("Please Enter an Email address");
+				}
+				if (password == string.Empty)
+				{
+					throw new MISSINGINFOEXECPTION("Please Enter Your Password");
+				}
+
+			}
+			catch (MISSINGINFOEXECPTION error)
+			{
+				errMsg.Text = error.Message;
+				errMsg.IsVisible = true;
+				return;
+				
+			}
+		 	
 			bool signInAuth = DependencyService.Get<IFirebaseAuth>().logIn(email, password);
 
 			if (signInAuth == true)
@@ -36,7 +62,7 @@ namespace KeepingTrack
 				errMsg.Text= "Log in Accepted";
 
 				//real processes 
-				//App.Current.MainPage = new KeepingTrackPage();
+				App.Current.MainPage = new KeepingTrackPage();
 
 
 			}
@@ -53,7 +79,7 @@ namespace KeepingTrack
 		{
 			//throw new NotImplementedException();
 			logInBtn = (Button)sender;
-
+			Label errMsg;
 			errMsg = this.FindByName<Label>("errMsgLabel");
 			errMsg.IsVisible = true;
 			errMsg.Text = "To The Sign Up Page";
@@ -61,8 +87,21 @@ namespace KeepingTrack
 			//Navigation.PushAsync(new SignUpPage());
 			App.Current.MainPage = new SignUpPage();
 
+
+
+		}
+		//MAKE OWN EXECPTION FOR MISSING STATEMENTS
+		//I decided to make add my own excepetion because you can only catch 
+		//and throw items from the exception class
+		//--This expection will handle 
+		class MISSINGINFOEXECPTION : Exception
+		{
+			public MISSINGINFOEXECPTION(string message) : base(message)
+			{
+			}
 		}
 
-	}
 
+	}
+		
 }

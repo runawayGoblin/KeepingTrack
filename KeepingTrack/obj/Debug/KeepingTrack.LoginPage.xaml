@@ -5,18 +5,19 @@
 
 
 	<ContentPage.Content >
-		<StackLayout VerticalOptions="StartAndExpand" Padding="35">
+		<StackLayout VerticalOptions="StartAndExpand" Padding="35" >
 			<Label Text="Buy me room" IsVisible="true" FontSize="25" TextColor="#3498DB"/>
 			<Label HorizontalOptions="Center" Text="Login" TextColor="White" FontSize="25"/>
 			<Label  HorizontalOptions="Start" Text="   Email" TextColor="White"/>
-			<Entry x:Name="emailEntry"  Placeholder= "name@example.com" TextColor="Gray" BackgroundColor="#3498DB"/>
+			<Entry x:Name="emailEntry"  Placeholder= "name@example.com" TextColor="#3498DB" BackgroundColor="White"/>
 			<Label HorizontalOptions="Start" Text="   Password" TextColor="White" />
-			<Entry x:Name="passwordEntry" BackgroundColor="#5DADE2" Placeholder="Password" TextColor="White" IsPassword="true" />
-			<Entry x:Name="testEntry" BackgroundColor="#5DADE2" Placeholder="Test" TextColor="#3498DB" IsPassword="true" />
-			<Entry x:Name="testEntryy" BackgroundColor="#5DADE2" Placeholder="Test" TextColor="Gray" IsPassword="true" />
-			<Button Text="Login" Clicked="OnLoginBtnClick" HorizontalOptions="Center" BackgroundColor="#5DADE2" WidthRequest="200" />
+			<Entry x:Name="passwordEntry" BackgroundColor="White" Placeholder="Password" TextColor="#3498DB" IsPassword="true" />
+
+
+			<Label Text="ROOOM" IsVisible="true" FontSize="25" TextColor="#3498DB"/>
+			<Button Text="Login" Clicked="OnLoginBtnClick" HorizontalOptions="Center" BackgroundColor="White"  TextColor="#3498DB" WidthRequest="200" />
 			<Button Text="Sign Up" Clicked="OnSignUpBtnClick" TextColor="White" BackgroundColor="#3498DB" />
-			<Label x:Name="errMsgLabel"  Text="logged in"  IsVisible="true"/>
+			<Label x:Name="errMsgLabel"  Text="FILLER"  IsVisible="false" TextColor="White"/>
 			
 		</StackLayout>
 	</ContentPage.Content>

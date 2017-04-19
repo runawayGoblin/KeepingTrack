@@ -18,7 +18,7 @@
 			<Button Text="&lt;" HorizontalOptions="Start" Clicked="OnBackBtnClick" TextColor="White" FontSize="30"/>
 			<Label HorizontalOptions="Center" Text="Sign Up" TextColor="White" FontSize="25"/>
 			<Label Text="   Email" HorizontalOptions="Start" TextColor="White"/>
-			<Entry x:Name="emailEntry"  Placeholder="email@example.com" TextColor="#3498DB"/>
+			<Entry x:Name="emailEntry" Text="" Placeholder="email@example.com" TextColor="#3498DB"/>
 			<Label Text="   Password" HorizontalOptions="Start" TextColor="White"/>
 			<Entry x:Name="password1Entry" IsPassword="true" Placeholder="...." TextColor="#3498DB"/>
 			<Label Text="   Re-Enter Password" HorizontalOptions="Start" TextColor="White"/>
@@ -27,7 +27,7 @@
 			<!-- HERE LIES: the submit button -->
 			<Label Text="ROOOM" IsVisible="true" FontSize="25" TextColor="#3498DB"/>
 			<Button  HorizontalOptions="Center" Text="Create Account" Clicked="OnCreateAcctBtnClick" BackgroundColor="White" WidthRequest="200.0" TextColor="#3498DB" />
-			<Label x:Name="errMsgLabel"  Text="idk"  IsVisible="false" TextColor="White"/>
+			<Label x:Name="errMsgLabel"  Text="FILLER"  IsVisible="false" TextColor="White"/>
 			
 			
 			

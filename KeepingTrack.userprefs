@@ -1,19 +1,15 @@
 ﻿<Properties StartupConfiguration="{0FDFCC83-5C34-437C-81D9-28EF8FAD6AF0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="KeepingTrack/SignUpPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KeepingTrack/LoginPage.xaml">
     <Files>
-      <File FileName="iOS/FirebaseAuthImpl.cs" Line="11" Column="47" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="KeepingTrack/SignUpPage.xaml.cs" Line="46" Column="16" />
-      <File FileName="KeepingTrack/SignUpPage.xaml" Line="25" Column="18" />
+      <File FileName="iOS/FirebaseAuthImpl.cs" Line="27" Column="1" />
+      <File FileName="KeepingTrack/LoginPage.xaml" Line="12" Column="82" />
+      <File FileName="KeepingTrack/LoginPage.xaml.cs" Line="65" Column="5" />
+      <File FileName="KeepingTrack/SignUpPage.xaml.cs" Line="122" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/moyo/Projects/KeepingTrack/KeepingTrack/LoginPage.xaml.cs" relfile="KeepingTrack/LoginPage.xaml.cs" line="20" column="1" />
-      <Breakpoint file="/Users/moyo/Projects/KeepingTrack/iOS/FirebaseAuthImpl.cs" relfile="iOS/FirebaseAuthImpl.cs" line="63" column="1" />
-      <Breakpoint file="/Users/moyo/Projects/KeepingTrack/iOS/FirebaseAuthImpl.cs" relfile="iOS/FirebaseAuthImpl.cs" line="71" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.KeepingTrack.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AEE330A2-A0B7-4D01-AB1D-35210F6D65DE" />

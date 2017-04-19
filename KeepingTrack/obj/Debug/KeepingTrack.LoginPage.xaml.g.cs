@@ -23,12 +23,6 @@ namespace KeepingTrack {
         private global::Xamarin.Forms.Entry passwordEntry;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry testEntry;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry testEntryy;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label errMsgLabel;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -36,8 +30,6 @@ namespace KeepingTrack {
             this.LoadFromXaml(typeof(LoginPage));
             emailEntry = this.FindByName <global::Xamarin.Forms.Entry>("emailEntry");
             passwordEntry = this.FindByName <global::Xamarin.Forms.Entry>("passwordEntry");
-            testEntry = this.FindByName <global::Xamarin.Forms.Entry>("testEntry");
-            testEntryy = this.FindByName <global::Xamarin.Forms.Entry>("testEntryy");
             errMsgLabel = this.FindByName <global::Xamarin.Forms.Label>("errMsgLabel");
         }
     }
