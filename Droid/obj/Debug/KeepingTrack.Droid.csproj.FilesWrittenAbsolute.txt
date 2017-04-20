@@ -31,6 +31,9 @@
 /Users/moyo/Projects/KeepingTrack/Droid/obj/Debug/res/drawable-hdpi/icon.png
 /Users/moyo/Projects/KeepingTrack/Droid/obj/Debug/res/drawable-xhdpi/icon.png
 /Users/moyo/Projects/KeepingTrack/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
+/Users/moyo/Projects/KeepingTrack/Droid/obj/Debug/res/drawable/roster.png
+/Users/moyo/Projects/KeepingTrack/Droid/obj/Debug/res/drawable/races.png
+/Users/moyo/Projects/KeepingTrack/Droid/obj/Debug/res/drawable/stats.png
 /Users/moyo/Projects/KeepingTrack/Droid/obj/Debug/res/values/goog_svcs_json.xml
 /Users/moyo/Projects/KeepingTrack/Droid/obj/Debug/R.cs.flag
 /Users/moyo/Projects/KeepingTrack/Droid/bin/Debug/com.morganyoung.keepingtrack-Signed.apk

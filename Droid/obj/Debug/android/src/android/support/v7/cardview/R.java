@@ -2865,13 +2865,13 @@ containing a value of this type.
         public static int abc_textfield_search_material=0x7f020051;
         public static int abc_vector_test=0x7f020052;
         public static int avd_hide_password=0x7f020053;
-        public static int avd_hide_password_1=0x7f02011f;
-        public static int avd_hide_password_2=0x7f020120;
-        public static int avd_hide_password_3=0x7f020121;
+        public static int avd_hide_password_1=0x7f020122;
+        public static int avd_hide_password_2=0x7f020123;
+        public static int avd_hide_password_3=0x7f020124;
         public static int avd_show_password=0x7f020054;
-        public static int avd_show_password_1=0x7f020122;
-        public static int avd_show_password_2=0x7f020123;
-        public static int avd_show_password_3=0x7f020124;
+        public static int avd_show_password_1=0x7f020125;
+        public static int avd_show_password_2=0x7f020126;
+        public static int avd_show_password_3=0x7f020127;
         public static int common_full_open_on_phone=0x7f020055;
         public static int common_google_signin_btn_icon_dark=0x7f020056;
         public static int common_google_signin_btn_icon_dark_disabled=0x7f020057;
@@ -3070,10 +3070,13 @@ containing a value of this type.
         public static int notification_bg_normal=0x7f020118;
         public static int notification_bg_normal_pressed=0x7f020119;
         public static int notification_icon_background=0x7f02011a;
-        public static int notification_template_icon_bg=0x7f02011d;
-        public static int notification_template_icon_low_bg=0x7f02011e;
+        public static int notification_template_icon_bg=0x7f020120;
+        public static int notification_template_icon_low_bg=0x7f020121;
         public static int notification_tile_bg=0x7f02011b;
         public static int notify_panel_notification_icon_bg=0x7f02011c;
+        public static int races=0x7f02011d;
+        public static int roster=0x7f02011e;
+        public static int stats=0x7f02011f;
     }
     public static final class id {
         public static int action0=0x7f0c00a3;

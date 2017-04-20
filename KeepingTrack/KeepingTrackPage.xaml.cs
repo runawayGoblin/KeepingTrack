@@ -2,7 +2,7 @@
 
 namespace KeepingTrack
 {
-	public partial class KeepingTrackPage : ContentPage
+	public partial class KeepingTrackPage : TabbedPage
 	{
 		public KeepingTrackPage()
 		{

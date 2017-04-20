@@ -2,6 +2,11 @@
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/ibtool/_BundleResourceWithLogicalName.items
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/actool/_PartialAppManifest.items
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/optimized/races.png
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/optimized/roster.png
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/optimized/stats.png
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/optimized/roster2x.png
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/optimized/stats2x.png
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/optimized/GoogleService-Info.plist
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/optimized/
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/XbdMerge/Firebase.Core.dll

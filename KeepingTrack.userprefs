@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{0FDFCC83-5C34-437C-81D9-28EF8FAD6AF0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="KeepingTrack/NewCoachPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KeepingTrack/RosterPage.xaml">
     <Files>
-      <File FileName="iOS/FirebaseAuthImpl.cs" Line="27" Column="1" />
-      <File FileName="KeepingTrack/SignUpPage.xaml.cs" Line="120" Column="5" />
-      <File FileName="KeepingTrack/NewCoachPage.xaml" Line="14" Column="46" />
-      <File FileName="KeepingTrack/NewCoachPage.xaml.cs" Line="65" Column="4" />
-      <File FileName="KeepingTrack/LoginPage.xaml.cs" Line="66" Column="5" />
+      <File FileName="KeepingTrack/RosterPage.xaml" Line="7" Column="42" />
+      <File FileName="KeepingTrack/RacesPage.xaml" Line="6" Column="83" />
+      <File FileName="KeepingTrack/KeepingTrackPage.xaml" Line="4" Column="2" />
+      <File FileName="KeepingTrack/KeepingTrackPage.xaml.cs" Line="12" Column="2" />
+      <File FileName="KeepingTrack/StatsPage.xaml" Line="8" Column="15" />
+      <File FileName="KeepingTrack/RacesPage.xaml.cs" Line="14" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

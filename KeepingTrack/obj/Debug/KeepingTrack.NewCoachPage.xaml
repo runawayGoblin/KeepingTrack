@@ -14,6 +14,8 @@
 			<Entry	x:Name="fNameEntry"  Placeholder= "first name" TextColor="#3498DB" BackgroundColor="White"/>
 			<Label  Text="Last Name" TextColor="White" />
 			<Entry 	x:Name="lNameEntry" BackgroundColor="White" Placeholder="last name" TextColor="#3498DB"  />
+			<!-- CHANGE THIS TO A SEARCH BAR  later, ty, bring up schools that are already enderted and when 
+			they enter one that doesnt exsits then make a new team and add the coach-->
 			<Label  Text="School Name" TextColor="White" />
 			<Entry 	x:Name="schoolEntry"   BackgroundColor="White" Placeholder="school" TextColor="#3498DB"  />
 

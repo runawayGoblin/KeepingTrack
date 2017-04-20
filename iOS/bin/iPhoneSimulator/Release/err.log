@@ -1,0 +1,77 @@
+objc[34830]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x120275ca8) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/AVConference.framework/AVConference (0x1201a7cd0). One of the two will be used. Which one is undefined.
+objc[34830]: Class PLBuildVersion is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x11defacc0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x11dd116f0). One of the two will be used. Which one is undefined.
+2017-04-19 14:06:46.341 KeepingTrack.iOS[34830:852872] Firebase automatic screen reporting is enabled. Call +[FIRAnalytics setScreenName:setScreenClass:] to set the screen name or override the default screen class name. To disable automatic screen reporting, set the flag FirebaseAutomaticScreenReportingEnabled to NO in the Info.plist
+2017-04-19 14:06:49.912 KeepingTrack.iOS[34830:] <FIRAnalytics/INFO> Firebase Analytics v.3600000 started
+2017-04-19 14:06:49.912 KeepingTrack.iOS[34830:] <FIRAnalytics/INFO> To enable debug logging set the following application argument: -FIRAnalyticsDebugEnabled (see http://goo.gl/Y0Yjwu)
+2017-04-19 14:06:49.913 KeepingTrack.iOS[34830:] <FIRAnalytics/INFO> Successfully created Firebase Analytics App Delegate Proxy automatically. To disable the proxy, set the flag FirebaseAppDelegateProxyEnabled to NO in the Info.plist
+2017-04-19 14:06:52.169 KeepingTrack.iOS[34830:] <FIRAnalytics/INFO> Firebase Analytics enabled
+2017-04-19 14:06:58.327 KeepingTrack.iOS[34830:852872] 
+Unhandled Exception:
+System.ArgumentNullException: Value cannot be null.
+Parameter name: email
+  at Firebase.Auth.Auth.SignIn (System.String email, System.String password, Firebase.Auth.AuthResultHandler completion) [0x00006] in <d8a2b3b916754b9da1a7144449f908f0>:0 
+  at KeepingTrack.iOS.FirebaseAuthImpl.logIn (System.String email, System.String password) [0x00012] in <09c2f2147e5040d19746f1c3f5d5553c>:0 
+  at KeepingTrack.LoginPage.OnLoginBtnClick (System.Object sender, System.EventArgs e) [0x00091] in <d212ced08c18456db0147e01cff55618>:0 
+  at Xamarin.Forms.Button.Xamarin.Forms.IButtonController.SendClicked () [0x00020] in <59b03de64f0e485e8c9d8ead0b747e17>:0 
+  at Xamarin.Forms.Platform.iOS.ButtonRenderer.OnButtonTouchUpInside (System.Object sender, System.EventArgs eventArgs) [0x0000a] in <a4dfcd869e5949c4919ee18a7d27997d>:0 
+  at UIKit.UIControlEventProxy.Activated () [0x00007] in <4692b8633c404c758160904e5dff77ed>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <4692b8633c404c758160904e5dff77ed>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <4692b8633c404c758160904e5dff77ed>:0 
+  at KeepingTrack.iOS.Application.Main (System.String[] args) [0x00000] in <09c2f2147e5040d19746f1c3f5d5553c>:0 
+2017-04-19 14:06:58.328 KeepingTrack.iOS[34830:852872] Unhandled managed exception:
+Value cannot be null.
+Parameter name: email (System.ArgumentNullException)
+  at Firebase.Auth.Auth.SignIn (System.String email, System.String password, Firebase.Auth.AuthResultHandler completion) [0x00006] in <d8a2b3b916754b9da1a7144449f908f0>:0 
+  at KeepingTrack.iOS.FirebaseAuthImpl.logIn (System.String email, System.String password) [0x00012] in <09c2f2147e5040d19746f1c3f5d5553c>:0 
+  at KeepingTrack.LoginPage.OnLoginBtnClick (System.Object sender, System.EventArgs e) [0x00091] in <d212ced08c18456db0147e01cff55618>:0 
+  at Xamarin.Forms.Button.Xamarin.Forms.IButtonController.SendClicked () [0x00020] in <59b03de64f0e485e8c9d8ead0b747e17>:0 
+  at Xamarin.Forms.Platform.iOS.ButtonRenderer.OnButtonTouchUpInside (System.Object sender, System.EventArgs eventArgs) [0x0000a] in <a4dfcd869e5949c4919ee18a7d27997d>:0 
+  at UIKit.UIControlEventProxy.Activated () [0x00007] in <4692b8633c404c758160904e5dff77ed>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <4692b8633c404c758160904e5dff77ed>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <4692b8633c404c758160904e5dff77ed>:0 
+  at KeepingTrack.iOS.Application.Main (System.String[] args) [0x00000] in <09c2f2147e5040d19746f1c3f5d5553c>:0 
+2017-04-19 14:06:58.328 KeepingTrack.iOS[34830:852872] critical: Stacktrace:
+
+2017-04-19 14:06:58.328 KeepingTrack.iOS[34830:852872] critical: 
+Native stacktrace:
+
+2017-04-19 14:06:58.482 KeepingTrack.iOS[34830:852872] critical: 	0   KeepingTrack.iOS                    0x0000000106ef4f2d mono_handle_native_sigsegv + 253
+2017-04-19 14:06:58.482 KeepingTrack.iOS[34830:852872] critical: 	1   libsystem_platform.dylib            0x0000000113debb3a _sigtramp + 26
+2017-04-19 14:06:58.482 KeepingTrack.iOS[34830:852872] critical: 	2   libsystem_kernel.dylib              0x0000000113daf430 libsystem_kernel.dylib + 1072
+2017-04-19 14:06:58.483 KeepingTrack.iOS[34830:852872] critical: 	3   libsystem_c.dylib                   0x0000000113b5a88f abort + 127
+2017-04-19 14:06:58.483 KeepingTrack.iOS[34830:852872] critical: 	4   KeepingTrack.iOS                    0x00000001070715d2 xamarin_unhandled_exception_handler + 34
+2017-04-19 14:06:58.483 KeepingTrack.iOS[34830:852872] critical: 	5   KeepingTrack.iOS                    0x0000000106f4eb74 mono_invoke_unhandled_exception_hook + 148
+2017-04-19 14:06:58.483 KeepingTrack.iOS[34830:852872] critical: 	6   KeepingTrack.iOS                    0x0000000106ef4c92 mono_handle_exception_internal + 4626
+2017-04-19 14:06:58.484 KeepingTrack.iOS[34830:852872] critical: 	7   KeepingTrack.iOS                    0x0000000106ef3a78 mono_handle_exception + 24
+2017-04-19 14:06:58.484 KeepingTrack.iOS[34830:852872] critical: 	8   KeepingTrack.iOS                    0x0000000106e70dff mono_amd64_throw_exception + 143
+2017-04-19 14:06:58.484 KeepingTrack.iOS[34830:852872] critical: 	9   ???                                 0x000000012758a9e7 0x0 + 4955089383
+2017-04-19 14:06:58.484 KeepingTrack.iOS[34830:852872] critical: 	10  KeepingTrack.iOS                    0x000000010707c5ec _ZL31native_to_managed_trampoline_11P11objc_objectP13objc_selectorPP11_MonoMethodj + 284
+2017-04-19 14:06:58.484 KeepingTrack.iOS[34830:852872] critical: 	11  KeepingTrack.iOS                    0x0000000107086924 -[UIKit_UIControlEventProxy BridgeSelector] + 52
+2017-04-19 14:06:58.485 KeepingTrack.iOS[34830:852872] critical: 	12  UIKit                               0x000000010837ed22 -[UIApplication sendAction:to:from:forEvent:] + 83
+2017-04-19 14:06:58.485 KeepingTrack.iOS[34830:852872] critical: 	13  UIKit                               0x000000010850325c -[UIControl sendAction:to:forEvent:] + 67
+2017-04-19 14:06:58.485 KeepingTrack.iOS[34830:852872] critical: 	14  UIKit                               0x0000000108503577 -[UIControl _sendActionsForEvents:withEvent:] + 450
+2017-04-19 14:06:58.485 KeepingTrack.iOS[34830:852872] critical: 	15  UIKit                               0x00000001085024b2 -[UIControl touchesEnded:withEvent:] + 618
+2017-04-19 14:06:58.485 KeepingTrack.iOS[34830:852872] critical: 	16  UIKit                               0x00000001083ec49a -[UIWindow _sendTouchesForEvent:] + 2707
+2017-04-19 14:06:58.486 KeepingTrack.iOS[34830:852872] critical: 	17  UIKit                               0x00000001083edbb0 -[UIWindow sendEvent:] + 4114
+2017-04-19 14:06:58.486 KeepingTrack.iOS[34830:852872] critical: 	18  UIKit                               0x000000010839a7b0 -[UIApplication sendEvent:] + 352
+2017-04-19 14:06:58.486 KeepingTrack.iOS[34830:852872] critical: 	19  UIKit                               0x0000000108b7dadc __dispatchPreprocessedEventFromEventQueue + 2926
+2017-04-19 14:06:58.486 KeepingTrack.iOS[34830:852872] critical: 	20  UIKit                               0x0000000108b75a3a __handleEventQueue + 1122
+2017-04-19 14:06:58.487 KeepingTrack.iOS[34830:852872] critical: 	21  CoreFoundation                      0x000000011258ac01 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+2017-04-19 14:06:58.487 KeepingTrack.iOS[34830:852872] critical: 	22  CoreFoundation                      0x00000001125700cf __CFRunLoopDoSources0 + 527
+2017-04-19 14:06:58.487 KeepingTrack.iOS[34830:852872] critical: 	23  CoreFoundation                      0x000000011256f5ff __CFRunLoopRun + 911
+2017-04-19 14:06:58.487 KeepingTrack.iOS[34830:852872] critical: 	24  CoreFoundation                      0x000000011256f016 CFRunLoopRunSpecific + 406
+2017-04-19 14:06:58.488 KeepingTrack.iOS[34830:852872] critical: 	25  GraphicsServices                    0x00000001133ffa24 GSEventRunModal + 62
+2017-04-19 14:06:58.488 KeepingTrack.iOS[34830:852872] critical: 	26  UIKit                               0x000000010837d0d4 UIApplicationMain + 159
+2017-04-19 14:06:58.488 KeepingTrack.iOS[34830:852872] critical: 	27  ???                                 0x000000012991a425 0x0 + 4992377893
+2017-04-19 14:06:58.488 KeepingTrack.iOS[34830:852872] critical: 	28  ???                                 0x000000012991a290 0x0 + 4992377488
+2017-04-19 14:06:58.488 KeepingTrack.iOS[34830:852872] critical: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+

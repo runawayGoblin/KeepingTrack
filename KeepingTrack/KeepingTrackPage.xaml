@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:KeepingTrack" x:Class="KeepingTrack.KeepingTrackPage">
-	<ContentPage.Content>
-		<StackLayout VerticalOptions="StartAndExpand" Padding="25" > 
-			<Label Text="Welcome Shit Stain!!" VerticalOptions="Center" HorizontalOptions="Center" />
-		</StackLayout>
-	</ContentPage.Content>
-</ContentPage>
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:KeepingTrack" x:Class="KeepingTrack.KeepingTrackPage">
+	<local:RacesPage>
+	</local:RacesPage>
+	<local:RosterPage>
+	</local:RosterPage>
+	<local:StatsPage>
+	</local:StatsPage>
+</TabbedPage>

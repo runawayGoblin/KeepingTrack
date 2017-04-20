@@ -39,6 +39,15 @@
     <EmbeddedResource Include="NewCoachPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="RosterPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RacesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -57,6 +66,15 @@
     <Compile Include="AuthDependency\IFirebaseAuth.cs" />
     <Compile Include="NewCoachPage.xaml.cs">
       <DependentUpon>NewCoachPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RosterPage.xaml.cs">
+      <DependentUpon>RosterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RacesPage.xaml.cs">
+      <DependentUpon>RacesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StatsPage.xaml.cs">
+      <DependentUpon>StatsPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

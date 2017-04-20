@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KeepingTrack.LoginPage" Title="Log In" BackgroundColor="#3498DB">
+
+
+	<ContentPage.Content >
+		<StackLayout VerticalOptions="StartAndExpand" Padding="35" >
+			<Label Text="Buy me room" IsVisible="true" FontSize="25" TextColor="#3498DB"/>
+			<Label HorizontalOptions="Center" Text="Login" TextColor="White" FontSize="25"/>
+			<Label  HorizontalOptions="Start" Text="   Email" TextColor="White"/>
+			<Entry x:Name="emailEntry"  Placeholder= "name@example.com" TextColor="#3498DB" BackgroundColor="White"/>
+			<Label HorizontalOptions="Start" Text="   Password" TextColor="White" />
+			<Entry x:Name="passwordEntry" BackgroundColor="White" Placeholder="Password" TextColor="#3498DB" IsPassword="true" />
+
+
+			<Label Text="ROOOM" IsVisible="true" FontSize="25" TextColor="#3498DB"/>
+			<Button Text="Login" Clicked="OnLoginBtnClick" HorizontalOptions="Center" BackgroundColor="White"  TextColor="#3498DB" WidthRequest="200" />
+			<Button Text="Sign Up" Clicked="OnSignUpBtnClick" TextColor="White" BackgroundColor="#3498DB" />
+			<Label x:Name="errMsgLabel"  Text="FILLER"  IsVisible="false" TextColor="White"/>
+			
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

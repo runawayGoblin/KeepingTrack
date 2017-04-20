@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Roster" Icon="roster.png" BackgroundColor="#3498DB" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KeepingTrack.RosterPage">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+			<Label Text="hi" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

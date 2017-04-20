@@ -124,7 +124,7 @@ namespace KeepingTrack
 		bool isValid(string test)
 		{
 			bool retVal = true;
-			if (test == string.Empty)
+			if (test == null)
 			{
 				retVal = false;
 			}

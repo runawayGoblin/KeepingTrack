@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Races" Icon="races.png" BackgroundColor="#3498DB" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KeepingTrack.RacesPage">
+
+	<ContentPage.Content>
+		<StackLayout  VerticalOptions="StartAndExpand" Padding="35">
+			<Label Text="Races" HorizontalOptions="Center" TextColor="White" FontAttributes="Bold" FontSize="40"/>
+			<Switch  />
+			<TableView x:Name="RacesTView" />
+			
+		</StackLayout>
+	</ContentPage.Content>
+	
+</ContentPage>

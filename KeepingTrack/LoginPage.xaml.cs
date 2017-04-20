@@ -34,11 +34,11 @@ namespace KeepingTrack
 			//must do this before trying to log in 
 			try
 			{
-				if (email == string.Empty)
+				if (email == null)
 				{
 					throw new MISSINGINFOEXECPTION("Please Enter an Email address");
 				}
-				if (password == string.Empty)
+				if (password == null)
 				{
 					throw new MISSINGINFOEXECPTION("Please Enter Your Password");
 				}
