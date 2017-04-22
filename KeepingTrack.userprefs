@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{0FDFCC83-5C34-437C-81D9-28EF8FAD6AF0}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="KeepingTrack/RosterPage.xaml">
     <Files>
-      <File FileName="KeepingTrack/RosterPage.xaml" Line="7" Column="42" />
-      <File FileName="KeepingTrack/RacesPage.xaml" Line="6" Column="83" />
-      <File FileName="KeepingTrack/KeepingTrackPage.xaml" Line="4" Column="2" />
+      <File FileName="KeepingTrack/RosterPage.xaml" Line="12" Column="15" />
+      <File FileName="KeepingTrack/KeepingTrackPage.xaml" Line="18" Column="14" />
       <File FileName="KeepingTrack/KeepingTrackPage.xaml.cs" Line="12" Column="2" />
-      <File FileName="KeepingTrack/StatsPage.xaml" Line="8" Column="15" />
-      <File FileName="KeepingTrack/RacesPage.xaml.cs" Line="14" Column="3" />
+      <File FileName="KeepingTrack/StatsPage.xaml" Line="1" Column="1" />
+      <File FileName="KeepingTrack/RosterPage.xaml.cs" Line="8" Column="47" />
+      <File FileName="KeepingTrack/obj/Debug/KeepingTrack.KeepingTrackPage.xaml.g.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
