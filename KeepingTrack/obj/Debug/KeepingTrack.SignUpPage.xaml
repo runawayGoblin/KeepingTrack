@@ -15,14 +15,14 @@
 			<!--Adding the actual content the user will see and interact with -->
 
 			<!--HERE LIES; Entry boxes and their respetive labels-->
-			<Button Text="&lt;" HorizontalOptions="Start" Clicked="OnBackBtnClick" TextColor="White" FontSize="30"/>
+			<Button Text="&lt;" HorizontalOptions="Start" Clicked="OnBackBtnClick" BackgroundColor="#3498DB" TextColor="White" FontSize="30"/>
 			<Label HorizontalOptions="Center" Text="Sign Up" TextColor="White" FontSize="25"/>
 			<Label Text="   Email" HorizontalOptions="Start" TextColor="White"/>
-			<Entry x:Name="emailEntry" Text="" Placeholder="email@example.com" TextColor="#3498DB"/>
+			<Entry x:Name="emailEntry" Text="" Placeholder="email@example.com" BackgroundColor="White" TextColor="#3498DB"/>
 			<Label Text="   Password" HorizontalOptions="Start" TextColor="White"/>
-			<Entry x:Name="password1Entry" IsPassword="true" Placeholder="...." TextColor="#3498DB"/>
+			<Entry x:Name="password1Entry" IsPassword="true" Placeholder="...." BackgroundColor="White" TextColor="#3498DB"/>
 			<Label Text="   Re-Enter Password" HorizontalOptions="Start" TextColor="White"/>
-			<Entry x:Name="password2Entry" IsPassword="true" Placeholder="...." TextColor="#3498DB"/>
+			<Entry x:Name="password2Entry" IsPassword="true" Placeholder="...." BackgroundColor="White" TextColor="#3498DB"/>
 
 			<!-- HERE LIES: the submit button -->
 			<Label Text="ROOOM" IsVisible="true" FontSize="25" TextColor="#3498DB"/>

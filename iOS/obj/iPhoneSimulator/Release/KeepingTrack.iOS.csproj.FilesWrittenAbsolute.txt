@@ -26,3 +26,11 @@
 /Users/moyo/Projects/KeepingTrack/iOS/bin/iPhoneSimulator/Release/Firebase.Analytics.dll
 /Users/moyo/Projects/KeepingTrack/iOS/bin/iPhoneSimulator/Release/Firebase.Auth.dll
 /Users/moyo/Projects/KeepingTrack/iOS/bin/iPhoneSimulator/Release/KeepingTrack.dll
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Release/optimized/races.png
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Release/optimized/roster.png
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Release/optimized/stats.png
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Release/optimized/roster2x.png
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Release/optimized/stats2x.png
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Release/XbdMerge/Firebase.Database.dll
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Release/XbdMerge/Firebase.Database.dll.stamp
+/Users/moyo/Projects/KeepingTrack/iOS/bin/iPhoneSimulator/Release/Firebase.Database.dll

@@ -11,6 +11,12 @@ void xamarin_register_assemblies_impl ()
 	guint32 exception_gchandle = 0;
 	xamarin_open_and_register ("Xamarin.Forms.Platform.iOS.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Firebase.Analytics.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Firebase.InstanceID.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Firebase.Auth.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
 
 }
 
@@ -26,7 +32,7 @@ void xamarin_setup_impl ()
 	xamarin_arch_name = "x86_64";
 	xamarin_marshal_objectivec_exception_mode = MarshalObjectiveCExceptionModeUnwindManagedCode;
 	xamarin_debug_mode = TRUE;
-	setenv ("MONO_GC_PARAMS", "nursery-size=512k", 1);
+	setenv ("MONO_GC_PARAMS", "nursery-size=512k,major=marksweep", 1);
 }
 
 int main (int argc, char **argv)

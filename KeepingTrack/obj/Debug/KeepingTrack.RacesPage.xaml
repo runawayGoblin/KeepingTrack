@@ -3,7 +3,7 @@
 
 	<ContentPage.Content>
 		<StackLayout  VerticalOptions="StartAndExpand" Padding="35">
-			<Label Text="Races" HorizontalOptions="Center" TextColor="White" FontAttributes="Bold" FontSize="40"/>
+			<!--Label Text="Races" HorizontalOptions="Center" TextColor="White" FontAttributes="Bold" FontSize="40"/-->
 			<Switch  />
 			<TableView x:Name="RacesTView" />
 			

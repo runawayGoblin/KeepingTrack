@@ -14,6 +14,9 @@ namespace KeepingTrack.iOS
 		{
 		}
 
+
+		//CHANGES
+		//changes this to a string, rather than bool 
 		public bool signUp(string email, string password)
 		{
 			
@@ -45,7 +48,8 @@ namespace KeepingTrack.iOS
     }
 });
 
-			return didWork;
+			return didWork; 
+			//return "Sup homes";
 		}
 
 

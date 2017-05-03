@@ -18,3 +18,7 @@
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/bin/Release/Xamarin.Forms.Core.dll
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/bin/Release/Xamarin.Forms.Platform.dll
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/bin/Release/Xamarin.Forms.Xaml.dll
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Release/KeepingTrack.StatsPage.xaml
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Release/KeepingTrack.StopwatchPage.xaml
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Release/KeepingTrack.StatsPage.xaml.g.cs
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Release/KeepingTrack.StopwatchPage.xaml.g.cs

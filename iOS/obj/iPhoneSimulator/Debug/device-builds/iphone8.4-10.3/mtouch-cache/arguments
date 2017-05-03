@@ -314,6 +314,8 @@
 	-r \
 	/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/XbdMerge/Firebase.Auth.dll \
 	-r \
+	/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/XbdMerge/Firebase.Database.dll \
+	-r \
 	/Users/moyo/Projects/KeepingTrack/packages/Xamarin.Forms.2.3.3.193/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
 	/Users/moyo/Projects/KeepingTrack/packages/Xamarin.Forms.2.3.3.193/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
@@ -331,6 +333,8 @@
 	/Users/moyo/Projects/KeepingTrack/packages/Xamarin.Firebase.iOS.Analytics.3.6.0.2/lib/Xamarin.iOS10/Firebase.Analytics.dll \
 	-r \
 	/Users/moyo/Projects/KeepingTrack/packages/Xamarin.Firebase.iOS.Auth.3.1.0/lib/Xamarin.iOS10/Firebase.Auth.dll \
+	-r \
+	/Users/moyo/Projects/KeepingTrack/packages/Xamarin.Firebase.iOS.Database.3.1.1.2/lib/Xamarin.iOS10/Firebase.Database.dll \
 	-r \
 	/Users/moyo/Projects/KeepingTrack/KeepingTrack/bin/Debug/KeepingTrack.dll \
 	--target-framework \

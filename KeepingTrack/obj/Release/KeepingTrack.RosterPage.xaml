@@ -1,5 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KeepingTrack.RosterPage">
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Roster" Icon="roster.png" BackgroundColor="#3498DB" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KeepingTrack.RosterPage">	
+
 	<ContentPage.Content>
+		<StackLayout VerticalOptions="StartAndExpand" Padding="35">
+			<!--Label Text="Roster" FontAttributes="Bold" HorizontalOptions="Center" FontSize="40" TextColor="White" /-->
+			<Switch x:Name="RaceSwitch" />
+			<TableView x:Name="RacesTableVivew" />
+			
+		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

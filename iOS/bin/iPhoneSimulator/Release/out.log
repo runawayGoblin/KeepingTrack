@@ -1,5 +1,2 @@
-2017-04-19 14:06:49.918: <FIRInstanceID/WARNING> FIRInstanceID AppDelegate proxy enabled, will swizzle app delegate remote notification handlers. To disable add "FirebaseAppDelegateProxyEnabled" to your Info.plist and set it to NO
-2017-04-19 14:06:50.431: <FIRInstanceID/WARNING> STOP!! Will reset deviceID from memory.
-2017-04-19 14:06:51.432: <FIRInstanceID/WARNING> Failed to fetch default token Error Domain=com.firebase.iid Code=6 "(null)"
-2017-04-19 14:06:51.611: <FIRInstanceID/WARNING> STOP!! Will reset deviceID from memory.
-2017-04-19 14:06:53.962: <FIRInstanceID/WARNING> STOP!! Will reset deviceID from memory.
+2017-04-27 01:56:18.063: <FIRInstanceID/WARNING> FIRInstanceID AppDelegate proxy enabled, will swizzle app delegate remote notification handlers. To disable add "FirebaseAppDelegateProxyEnabled" to your Info.plist and set it to NO
+2017-04-27 01:56:18.639: <FIRInstanceID/WARNING> STOP!! Will reset deviceID from memory.

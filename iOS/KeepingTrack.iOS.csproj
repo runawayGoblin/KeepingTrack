@@ -109,6 +109,9 @@
     <Reference Include="Firebase.Auth">
       <HintPath>..\packages\Xamarin.Firebase.iOS.Auth.3.1.0\lib\Xamarin.iOS10\Firebase.Auth.dll</HintPath>
     </Reference>
+    <Reference Include="Firebase.Database">
+      <HintPath>..\packages\Xamarin.Firebase.iOS.Database.3.1.1.2\lib\Xamarin.iOS10\Firebase.Database.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\KeepingTrack\KeepingTrack.csproj">
@@ -141,6 +144,10 @@
       <Version>3.1.0.0</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
+    <XamarinComponentReference Include="firebaseiosdatabase">
+      <Version>3.1.1.2</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="GoogleService-Info.plist" />
@@ -157,4 +164,5 @@
   <Import Project="..\packages\Xamarin.Firebase.iOS.InstanceID.1.0.8.1\build\Xamarin.Firebase.iOS.InstanceID.targets" Condition="Exists('..\packages\Xamarin.Firebase.iOS.InstanceID.1.0.8.1\build\Xamarin.Firebase.iOS.InstanceID.targets')" />
   <Import Project="..\packages\Xamarin.Firebase.iOS.Analytics.3.6.0.2\build\Xamarin.Firebase.iOS.Analytics.targets" Condition="Exists('..\packages\Xamarin.Firebase.iOS.Analytics.3.6.0.2\build\Xamarin.Firebase.iOS.Analytics.targets')" />
   <Import Project="..\packages\Xamarin.Firebase.iOS.Auth.3.1.0\build\Xamarin.Firebase.iOS.Auth.targets" Condition="Exists('..\packages\Xamarin.Firebase.iOS.Auth.3.1.0\build\Xamarin.Firebase.iOS.Auth.targets')" />
+  <Import Project="..\packages\Xamarin.Firebase.iOS.Database.3.1.1.2\build\Xamarin.Firebase.iOS.Database.targets" Condition="Exists('..\packages\Xamarin.Firebase.iOS.Database.3.1.1.2\build\Xamarin.Firebase.iOS.Database.targets')" />
 </Project>

@@ -8,8 +8,10 @@ namespace KeepingTrack
 		{
 			InitializeComponent();
 
+			MainPage = new StopwatchPage();
+
 			//MainPage = new LoginPage();
-			MainPage = new KeepingTrackPage();
+			//MainPage = new KeepingTrackPage();
 		}
 
 		protected override void OnStart()

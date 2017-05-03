@@ -1,3 +1,5 @@
+_kFIRInstanceIDScopeFirebaseMessaging
+_kFIRInstanceIDTokenRefreshNotification
 _CreateZStream
 _CloseZStream
 _Flush
@@ -9,6 +11,15 @@ _xamarin_timezone_get_data
 _xamarin_GetFolderPath
 _xamarin_get_locale_country_code
 _xamarin_log
+_FIRAuthErrorDomain
+_FIRAuthErrorNameKey
+_FIRAuthStateDidChangeNotification
+_FirebaseAuthVersionString
+_FIREmailPasswordAuthProviderID
+_FIRFacebookAuthProviderID
+_FIRGitHubAuthProviderID
+_FIRGoogleAuthProviderID
+_FIRTwitterAuthProviderID
 _xamarin_localized_string_format
 _xamarin_localized_string_format_1
 _xamarin_localized_string_format_2

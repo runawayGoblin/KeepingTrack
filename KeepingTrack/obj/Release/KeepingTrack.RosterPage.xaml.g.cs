@@ -17,8 +17,16 @@ namespace KeepingTrack {
     public partial class RosterPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Switch RaceSwitch;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.TableView RacesTableVivew;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(RosterPage));
+            RaceSwitch = this.FindByName <global::Xamarin.Forms.Switch>("RaceSwitch");
+            RacesTableVivew = this.FindByName <global::Xamarin.Forms.TableView>("RacesTableVivew");
         }
     }
 }

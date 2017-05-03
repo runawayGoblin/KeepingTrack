@@ -104,6 +104,8 @@ namespace KeepingTrack
 			{
 				errMsg.IsVisible = true;
 				errMsg.Text = "Unable to Add Account at This Time";
+				//errMsg.Text = signInAuth;
+
 			}
 
 

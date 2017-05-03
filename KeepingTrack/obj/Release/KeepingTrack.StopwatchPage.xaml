@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KeepingTrack.StopwatchPage" BackgroundColor="#3498DB">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="StartAndExpand" Padding="35">
+			<Label x:Name="timeDisplay" HorizontalOptions="CenterAndExpand"  TextColor="White" Text="00:00" BackgroundColor="#258cd1" FontSize="100" /> 
+			<Label Text="FILLER" TextColor="#3498DB" FontSize="20"/>
+			<Button x:Name="Maddie" Clicked="onLap" Text="Lap" BackgroundColor="White"  />
+			<Label x:Name="SplitsLabel" Text="00:00" TextColor="White" HorizontalOptions="Center" />
+		</StackLayout>
+
+		
+	</ContentPage.Content>
+</ContentPage>

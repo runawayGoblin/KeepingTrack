@@ -13,10 +13,12 @@
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/XbdMerge/Firebase.Analytics.dll
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/XbdMerge/Firebase.InstanceID.dll
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/XbdMerge/Firebase.Auth.dll
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/XbdMerge/Firebase.Database.dll
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/XbdMerge/Firebase.Core.dll.stamp
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/XbdMerge/Firebase.Analytics.dll.stamp
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/XbdMerge/Firebase.InstanceID.dll.stamp
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/XbdMerge/Firebase.Auth.dll.stamp
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/XbdMerge/Firebase.Database.dll.stamp
 /Users/moyo/Projects/KeepingTrack/iOS/bin/iPhoneSimulator/Debug/KeepingTrack.iOS.exe.mdb
 /Users/moyo/Projects/KeepingTrack/iOS/bin/iPhoneSimulator/Debug/KeepingTrack.iOS.exe
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/KeepingTrack.iOS.exe
@@ -30,5 +32,6 @@
 /Users/moyo/Projects/KeepingTrack/iOS/bin/iPhoneSimulator/Debug/Firebase.InstanceID.dll
 /Users/moyo/Projects/KeepingTrack/iOS/bin/iPhoneSimulator/Debug/Firebase.Analytics.dll
 /Users/moyo/Projects/KeepingTrack/iOS/bin/iPhoneSimulator/Debug/Firebase.Auth.dll
+/Users/moyo/Projects/KeepingTrack/iOS/bin/iPhoneSimulator/Debug/Firebase.Database.dll
 /Users/moyo/Projects/KeepingTrack/iOS/bin/iPhoneSimulator/Debug/KeepingTrack.dll
 /Users/moyo/Projects/KeepingTrack/iOS/bin/iPhoneSimulator/Debug/KeepingTrack.dll.mdb
