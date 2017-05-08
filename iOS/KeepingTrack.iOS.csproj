@@ -138,6 +138,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="FirebaseAuthImpl.cs" />
+    <Compile Include="FirebaseDbImp.cs" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="firebaseiosauth">

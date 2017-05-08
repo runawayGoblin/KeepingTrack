@@ -22,3 +22,7 @@
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Release/KeepingTrack.StopwatchPage.xaml
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Release/KeepingTrack.StatsPage.xaml.g.cs
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Release/KeepingTrack.StopwatchPage.xaml.g.cs
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Release/KeepingTrack.AddAthletePage.xaml
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Release/KeepingTrack.AddRacePage.xaml
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Release/KeepingTrack.AddAthletePage.xaml.g.cs
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Release/KeepingTrack.AddRacePage.xaml.g.cs

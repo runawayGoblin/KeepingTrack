@@ -32,6 +32,7 @@
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/mtouch-cache/Link/System.Xml.dll
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/mtouch-cache/Link/System.IO.dll
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/mtouch-cache/Link/Calabash.dll
+/Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/mtouch-cache/Link/Firebase.Database.dll
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/mtouch-cache/Link/System.Linq.dll
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/mtouch-cache/Link/System.Reflection.dll
 /Users/moyo/Projects/KeepingTrack/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-10.3/mtouch-cache/Link/System.Dynamic.Runtime.dll

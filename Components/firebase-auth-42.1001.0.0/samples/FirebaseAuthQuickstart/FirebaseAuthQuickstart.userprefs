@@ -7,6 +7,17 @@
       <File FileName="FirebaseAuthQuickstart/CustomAuthActivity.cs" Line="1" Column="1" />
       <File FileName="FirebaseAuthQuickstart/EmailPasswordActivity.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FirebaseAuthQuickstart" expanded="True">
+            <Node name="FirebaseAuthQuickstart" expanded="True">
+              <Node name="EmailPasswordActivity.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

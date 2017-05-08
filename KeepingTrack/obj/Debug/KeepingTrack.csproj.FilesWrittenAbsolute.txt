@@ -8,6 +8,8 @@
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.RacesPage.xaml
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.StatsPage.xaml
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.StopwatchPage.xaml
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.AddAthletePage.xaml
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.AddRacePage.xaml
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.App.xaml.g.cs
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.KeepingTrackPage.xaml.g.cs
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.LoginPage.xaml.g.cs
@@ -17,6 +19,8 @@
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.RacesPage.xaml.g.cs
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.StatsPage.xaml.g.cs
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.StopwatchPage.xaml.g.cs
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.AddAthletePage.xaml.g.cs
+/Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.AddRacePage.xaml.g.cs
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/bin/Debug/KeepingTrack.dll.mdb
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/bin/Debug/KeepingTrack.dll
 /Users/moyo/Projects/KeepingTrack/KeepingTrack/obj/Debug/KeepingTrack.dll

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Create Race" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KeepingTrack.AddRacePage" BackgroundColor="#3498DB">
+	<ContentPage.Content>
+
+		<StackLayout VerticalOptions="StartAndExpand" Padding="35" >
+
+
+			<Label HorizontalOptions="Center" Text="Create Race" TextColor="White" FontSize="25"/>
+			
+			<Label x:Name="raceNameLbl" Text="Race Name" TextColor="White"/>
+			<Entry x:Name="fnameEnt" Placeholder="Example" TextColor="#3498DB"/>
+
+			<Label x:Name="distanceLbl" Text="Distance" TextColor="White"/>
+			<Picker x:Name="distancePkr" Title="Grade" TextColor="#3498DB" HorizontalOptions="FillAndExpand"  >
+				<Picker.Items>
+					<x:String>800m</x:String>
+					<x:String>1500m</x:String>
+					<x:String>3000 Steeple</x:String>
+					<x:String>5000k</x:String>
+					<x:String>10000k</x:String>
+				</Picker.Items>
+			</Picker>
+			
+			<Label x:Name="dateLbl" Text="Date" TextColor="White"/>
+			<DatePicker VerticalOptions="CenterAndExpand" Date="{x:Static system:DateTime.Now}">
+				<DatePicker.Format>yyyy-MM-dd</DatePicker.Format>
+			</DatePicker>
+
+			
+
+			<Label x:Name="fakeOut" Text="First Name" FontSize="35" TextColor="#3498DB" />
+			
+
+			<Button x:Name="creatAthleteBtn" Clicked="onAddAthlete" HorizontalOptions="Center" Text="Add Athlete" BackgroundColor="White" WidthRequest="200.0" />
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

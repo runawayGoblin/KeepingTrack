@@ -51,6 +51,12 @@
     <EmbeddedResource Include="StopwatchPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddAthletePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRacePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -83,6 +89,14 @@
       <DependentUpon>StopwatchPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Runner.cs" />
+    <Compile Include="AddAthletePage.xaml.cs">
+      <DependentUpon>AddAthletePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddRacePage.xaml.cs">
+      <DependentUpon>AddRacePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AuthDependency\IFirebaseDb.cs" />
+    <Compile Include="Race.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

@@ -24,7 +24,9 @@ namespace KeepingTrack
 		}
 		public string getName()
 		{
+			
 			return name;
+
 		}
 		public void setString(string n)
 		{

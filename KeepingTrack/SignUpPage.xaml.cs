@@ -84,18 +84,23 @@ namespace KeepingTrack
 			}
 
 
+			string errorR= null;
+			object userR=null;
 
-			bool signInAuth = DependencyService.Get<IFirebaseAuth>().signUp(email, password1);
+			DependencyService.Get<IFirebaseAuth>().signUp(email, password1, userR, errorR);
+			errMsg.IsVisible = true;
+			errMsg.Text = "middle";
+			errMsg.IsVisible = false;
 
 
-
-			if (signInAuth == true)
+			if (errorR==null)
 			{
 				//initial test, if the sign in works, show it on the 
 				//errMsg.IsVisible = true;
 				//errMsg.Text = "Acct Added";
 
-				//real processes 
+				//real processes
+				App.userObj = userR;
 				App.Current.MainPage = new NewCoachPage();
 
 
@@ -103,13 +108,16 @@ namespace KeepingTrack
 			else
 			{
 				errMsg.IsVisible = true;
-				errMsg.Text = "Unable to Add Account at This Time";
+				errMsg.Text =errorR;
 				//errMsg.Text = signInAuth;
 
 			}
 
 
 		}
+
+			
+
 
 		//MAKE OWN EXECPTION FOR MISSING STATEMENTS
 		//I decided to make add my own excepetion because you can only catch 

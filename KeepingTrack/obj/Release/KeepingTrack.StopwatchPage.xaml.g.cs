@@ -17,8 +17,36 @@ namespace KeepingTrack {
     public partial class StopwatchPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label TimeLbl;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button StartLapBtn;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button MaddieBtn;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button KaylieBtn;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label SplitsLabel;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label KLabel;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label MLabel;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(StopwatchPage));
+            TimeLbl = this.FindByName <global::Xamarin.Forms.Label>("TimeLbl");
+            StartLapBtn = this.FindByName <global::Xamarin.Forms.Button>("StartLapBtn");
+            MaddieBtn = this.FindByName <global::Xamarin.Forms.Button>("MaddieBtn");
+            KaylieBtn = this.FindByName <global::Xamarin.Forms.Button>("KaylieBtn");
+            SplitsLabel = this.FindByName <global::Xamarin.Forms.Label>("SplitsLabel");
+            KLabel = this.FindByName <global::Xamarin.Forms.Label>("KLabel");
+            MLabel = this.FindByName <global::Xamarin.Forms.Label>("MLabel");
         }
     }
 }

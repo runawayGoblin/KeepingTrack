@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KeepingTrack.StopwatchPage" BackgroundColor="#3498DB">
 	<ContentPage.Content>
-		<StackLayout VerticalOptions="StartAndExpand" Padding="25">
-			<Label x:Name="TimeLbl" HorizontalOptions="CenterAndExpand" Text="0" Font="60" TextColor="White"/>
+		<StackLayout VerticalOptions="StartAndExpand" Padding="25" >
+			<Label x:Name="TimeLbl" HorizontalOptions="CenterAndExpand" Text="00:00.00" Font="60" TextColor="White"/>
 			<Label Text="FILLERAF" FontSize="20" TextColor="#3498DB"/>
 
-			<Button x:Name="StartLapBtn" Text="Start" BackgroundColor="White" WidthRequest="200.0" Clicked="StartStopClick"/>
-			<Button x:Name="MaddieBtn" Text="Maddie" BackgroundColor="White" WidthRequest="200.0" Clicked="LapClick"/>
-			<Button x:Name="KaylieBtn" Text="Kaylie" BackgroundColor="White" WidthRequest="200.0" Clicked="LapClick"/>
+			<Button x:Name="StartLapBtn" Text="Start" BackgroundColor="White" WidthRequest="200.0" Clicked="StartStopClick" TextColor="#3498DB"/>
+			<Button x:Name="MaddieBtn" Text="Maddie" BackgroundColor="White" WidthRequest="200.0" Clicked="LapClick" TextColor="#3498DB"/>
+			<Button x:Name="KaylieBtn" Text="Kaylie" BackgroundColor="White" WidthRequest="200.0" Clicked="LapClick" TextColor="#3498DB"/>
 			<Label x:Name="SplitsLabel" Text="Splits" TextColor="White" IsVisible="false" />
 			<Label x:Name="KLabel" Text="Splits" TextColor="White" IsVisible="false" />
 			<Label x:Name="MLabel" Text="Splits" TextColor="White" IsVisible="false" />

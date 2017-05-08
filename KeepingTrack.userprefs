@@ -1,21 +1,26 @@
 ﻿<Properties StartupConfiguration="{0FDFCC83-5C34-437C-81D9-28EF8FAD6AF0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="KeepingTrack/StopwatchPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/FirebaseDbImp.cs">
     <Files>
-      <File FileName="KeepingTrack/StopwatchPage.xaml" Line="13" Column="25" />
-      <File FileName="KeepingTrack/StopwatchPage.xaml.cs" Line="100" Column="22" />
-      <File FileName="KeepingTrack/AuthDependency/IFirebaseAuth.cs" Line="1" Column="1" />
-      <File FileName="KeepingTrack/App.xaml.cs" Line="11" Column="4" />
+      <File FileName="KeepingTrack/AddAthletePage.xaml.cs" Line="37" Column="71" />
+      <File FileName="KeepingTrack/AddAthletePage.xaml" Line="1" Column="1" />
+      <File FileName="KeepingTrack/AuthDependency/IFirebaseDb.cs" Line="12" Column="52" />
+      <File FileName="iOS/FirebaseDbImp.cs" Line="67" Column="1" />
+      <File FileName="KeepingTrack/Race.cs" Line="15" Column="3" />
+      <File FileName="KeepingTrack/SignUpPage.xaml.cs" Line="94" Column="4" />
+      <File FileName="KeepingTrack/Runner.cs" Line="27" Column="4" />
+      <File FileName="KeepingTrack/App.xaml.cs" Line="30" Column="4" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="KeepingTrack/Runner.cs" Line="37" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint enabled="false" file="/Users/moyo/Projects/KeepingTrack/KeepingTrack/SignUpPage.xaml.cs" relfile="KeepingTrack/SignUpPage.xaml.cs" line="94" column="1" />
-      <Breakpoint enabled="false" file="/Users/moyo/Projects/KeepingTrack/Droid/FirebaseAuthImpl.cs" relfile="Droid/FirebaseAuthImpl.cs" line="30" column="1" />
-      <Breakpoint enabled="false" file="/Users/moyo/Projects/KeepingTrack/Droid/FirebaseAuthImpl.cs" relfile="Droid/FirebaseAuthImpl.cs" line="45" column="1" />
-      <Breakpoint file="/Users/moyo/Projects/KeepingTrack/iOS/StopWatchImp.cs" relfile="iOS/StopWatchImp.cs" line="40" column="1" />
+      <Breakpoint file="/Users/moyo/Projects/KeepingTrack/KeepingTrack/SignUpPage.xaml.cs" relfile="KeepingTrack/SignUpPage.xaml.cs" line="103" column="1" />
+      <Breakpoint file="/Users/moyo/Projects/KeepingTrack/KeepingTrack/SignUpPage.xaml.cs" relfile="KeepingTrack/SignUpPage.xaml.cs" line="103" column="1" />
+      <Breakpoint file="/Users/moyo/Projects/KeepingTrack/iOS/FirebaseAuthImpl.cs" relfile="iOS/FirebaseAuthImpl.cs" line="29" column="1" />
+      <Breakpoint file="/Users/moyo/Projects/KeepingTrack/KeepingTrack/SignUpPage.xaml.cs" relfile="KeepingTrack/SignUpPage.xaml.cs" line="90" column="1" />
+      <Breakpoint file="/Users/moyo/Projects/KeepingTrack/KeepingTrack/AuthDependency/IFirebaseAuth.cs" relfile="KeepingTrack/AuthDependency/IFirebaseAuth.cs" line="8" column="1" />
+      <Breakpoint file="/Users/moyo/Projects/KeepingTrack/iOS/FirebaseDbImp.cs" relfile="iOS/FirebaseDbImp.cs" line="67" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

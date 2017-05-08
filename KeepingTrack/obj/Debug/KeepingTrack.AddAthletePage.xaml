@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Add Athlete" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KeepingTrack.AddAthletePage" BackgroundColor="#3498DB" >
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="StartAndExpand" Padding="35" >
+
+
+			<Label HorizontalOptions="Center" Text="Create Athlete" TextColor="White" FontSize="25"/>
+			
+			<Label x:Name="fnameLbl" Text="First Name" TextColor="White"/>
+			<Entry x:Name="fnameEnt" Placeholder="Example" TextColor="#3498DB"/>
+
+			<Label x:Name="lnameLbl" Text="Last Name" TextColor="White"/>
+			<Entry x:Name="lnameEnt" Placeholder="Athlete" TextColor="#3498DB"/>
+
+			<Label x:Name="emailLbl" Text="First Name" TextColor="White"/>
+			<Entry x:Name="emailEnt" Placeholder="axample@school.edu" TextColor="#3498DB"/>
+			
+			<Label x:Name="GradeLbl" Text="Grade" TextColor="White" />
+			<Picker x:Name="GradePkr" Title="Grade" TextColor="#3498DB" HorizontalOptions="FillAndExpand"  >
+				<Picker.Items>
+					<x:String>Freshman</x:String>
+					<x:String>Sophmore</x:String>
+					<x:String>Junior</x:String>
+					<x:String>Senior</x:String>
+				</Picker.Items>
+			</Picker>
+			<Label x:Name="fakeOut" Text="First Name" FontSize="35" TextColor="#3498DB" />
+			
+
+			<Button x:Name="creatAthleteBtn" Clicked="onAddAthlete" HorizontalOptions="Center" Text="Add Athlete" BackgroundColor="White" WidthRequest="200.0" />
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
