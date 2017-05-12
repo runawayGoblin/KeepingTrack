@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using System.Collections.Generic;
 
 namespace KeepingTrack
 {
@@ -8,22 +9,26 @@ namespace KeepingTrack
 		public App()
 		{
 			InitializeComponent();
-			isLoggedIn = false;
-			MainPage = new AddAthletePage();
+			//isLoggedIn = false;
+			//MainPage = new AddAthletePage();
 			//MainPage = new StopwatchPage();
-			//MainPage = new LoginPage();
+			MainPage = new LoginPage();
 			//MainPage = new KeepingTrackPage();
 		}
 
 		public static bool isLoggedIn { get; set; }
 		public static object userObj { get; set; }
 		public static string userID { get; set; }
+		public static List<string> raceList { get; set; }
+		public static List<string> athList { get; set; }
 
 
 		protected override void OnStart()
 		{
 			// Handle when your app starts
-			userID = "B1Bzx0YVuPbB9XZyFAEL36DDMyN2";
+			userID = "rholan@cartahge-edu";
+			raceList = new List<string>();
+			athList = new List<string>();
 		}
 
 		protected override void OnSleep()

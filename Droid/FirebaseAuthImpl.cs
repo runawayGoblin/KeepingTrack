@@ -16,7 +16,7 @@ namespace KeepingTrack.Droid
 
 
 
-		public bool signUp(string email, string password)
+		public void signUp(string email, string password)
 		{
 			string ErrCode = null;//will be null if nothing bad happens
 			bool retval = true;

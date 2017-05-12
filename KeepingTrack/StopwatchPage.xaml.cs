@@ -24,9 +24,12 @@ namespace KeepingTrack
 		private Stopwatch sw = new Stopwatch();
 		//private IStopWatchImp sw;
 		private Dictionary<string, Runner> runners;
+		//private Race raceSettings;
+
 		public StopwatchPage()
 		{
 			InitializeComponent();
+			//raceSettings = r;
 			splLbl = this.FindByName<Label>("SplitsLabel");
 			startLap = this.FindByName<Button>("StartLapBtn");
 			//lapCount = 00;
@@ -34,11 +37,14 @@ namespace KeepingTrack
 			maddieLbl = this.FindByName<Label>("MLabel");
 			kaylieLbl = this.FindByName<Label>("KLabel");
 			runners = new Dictionary<string, Runner>();
-			runners.Add("Maddie", new Runner("Maddie", 0, ""));
-			runners.Add("Kaylie", new Runner("Kaylie", 0, ""));
-			numLaps = 10;
+			runners.Add("Shannon", new Runner("Shannon", 0, ""));
+			runners.Add("Jenny", new Runner("Jenny", 0, ""));
+			numLaps = 4;
 			runnersLeft = 2;
 			//runnersLeft = 2;
+
+
+
 		}
 
 		/*async*/
@@ -83,13 +89,13 @@ namespace KeepingTrack
 				//update the label
 				splLbl.Text = tempRunner.getName() + " : " + tempRunner.getLaps().ToString() + ": " + timeOnLap;
 				//check and balances
-				if (tempRunner.getLaps() == numLaps && nameBtnClicked == "Maddie")
+				if (tempRunner.getLaps() == numLaps && nameBtnClicked == "Shannon")
 				{
 					MaddieBtn.IsVisible = false;
 					runnersLeft--;
 
 				}
-				else if (tempRunner.getLaps() == numLaps && nameBtnClicked == "Kaylie")
+				else if (tempRunner.getLaps() == numLaps && nameBtnClicked == "Jenny")
 				{
 					KaylieBtn.IsVisible = false;
 					runnersLeft--;
@@ -113,10 +119,10 @@ namespace KeepingTrack
 			//startLap.BackgroundColor =new Color(255, 255, 255);
 			sw.Stop();
 			//Runner temp = runners["Maddie"];
-			maddieLbl.Text = runners["Maddie"].getTimes();
+			maddieLbl.Text = "Shannon: " + runners["Shannon"].getTimes();
 			maddieLbl.IsVisible = true;
 			//temp = runners["Maddie"];
-			kaylieLbl.Text = runners["Kaylie"].getTimes();
+			kaylieLbl.Text = "Jenny" + runners["Jenny"].getTimes();
 			kaylieLbl.IsVisible = true;
 		}
 

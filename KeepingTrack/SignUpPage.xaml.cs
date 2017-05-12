@@ -87,7 +87,7 @@ namespace KeepingTrack
 			string errorR= null;
 			object userR=null;
 
-			DependencyService.Get<IFirebaseAuth>().signUp(email, password1, userR, errorR);
+			DependencyService.Get<IFirebaseAuth>().signUp(email, password1);
 			errMsg.IsVisible = true;
 			errMsg.Text = "middle";
 			errMsg.IsVisible = false;

@@ -17,10 +17,10 @@ namespace KeepingTrack {
     public partial class AddRacePage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label raceNameLbl;
+        private global::Xamarin.Forms.Label meetNameLbl;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry fnameEnt;
+        private global::Xamarin.Forms.Entry meetNameEnt;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label distanceLbl;
@@ -32,21 +32,33 @@ namespace KeepingTrack {
         private global::Xamarin.Forms.Label dateLbl;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label fakeOut;
+        private global::Xamarin.Forms.DatePicker datePkr;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button creatAthleteBtn;
+        private global::Xamarin.Forms.ListView runnerList;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label athChosenLbl;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button nextBtn;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button createRaceBtn;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(AddRacePage));
-            raceNameLbl = this.FindByName <global::Xamarin.Forms.Label>("raceNameLbl");
-            fnameEnt = this.FindByName <global::Xamarin.Forms.Entry>("fnameEnt");
+            meetNameLbl = this.FindByName <global::Xamarin.Forms.Label>("meetNameLbl");
+            meetNameEnt = this.FindByName <global::Xamarin.Forms.Entry>("meetNameEnt");
             distanceLbl = this.FindByName <global::Xamarin.Forms.Label>("distanceLbl");
             distancePkr = this.FindByName <global::Xamarin.Forms.Picker>("distancePkr");
             dateLbl = this.FindByName <global::Xamarin.Forms.Label>("dateLbl");
-            fakeOut = this.FindByName <global::Xamarin.Forms.Label>("fakeOut");
-            creatAthleteBtn = this.FindByName <global::Xamarin.Forms.Button>("creatAthleteBtn");
+            datePkr = this.FindByName <global::Xamarin.Forms.DatePicker>("datePkr");
+            runnerList = this.FindByName <global::Xamarin.Forms.ListView>("runnerList");
+            athChosenLbl = this.FindByName <global::Xamarin.Forms.Label>("athChosenLbl");
+            nextBtn = this.FindByName <global::Xamarin.Forms.Button>("nextBtn");
+            createRaceBtn = this.FindByName <global::Xamarin.Forms.Button>("createRaceBtn");
         }
     }
 }

@@ -4,6 +4,7 @@ using KeepingTrack.iOS;
 using Firebase.Database;
 using System.Collections.Generic;
 using Foundation;
+
 [assembly: Xamarin.Forms.Dependency(typeof(FirebaseDbImp))]
 namespace KeepingTrack.iOS
 {
@@ -38,14 +39,32 @@ namespace KeepingTrack.iOS
 
 		}
 
-		public Dictionary<string, Runner> GetRunnersOnTeam(string teamname)
+		public void GetRunnersOnTeam(string cID, Dictionary<string, string> r)
 		{
 
-			Dictionary<string, Runner> r = new Dictionary<string, Runner>();
+			//Dictionary<string, Runner> r = new Dictionary<string, string>();
+			NSDictionary dict;
+			DatabaseReference rootNode = Database.DefaultInstance.GetRootReference();
+			DatabaseReference aIRNode = rootNode.GetChild("AthletesOnTeam").GetChild("CarthageW");
+			//string teamName="CarthageW";
+			aIRNode.ObserveSingleEvent(DataEventType.Value, (snapshot) =>
+			{
+				dict = snapshot.GetValue<NSDictionary>();
+				object[] keys = dict.Keys;
 
-			r.Add("1", new Runner("m", 1, "t"));
+				foreach (object k in keys)
+				{
+					object val = dict.ValueForKey((NSString)k);
+					r.Add(val.ToString(), k.ToString());
+				}
 
-			return r;
+			}, (error) =>
+			{
+				Console.WriteLine(error.LocalizedDescription);
+			});
+
+
+
 		}
 
 
@@ -81,29 +100,76 @@ namespace KeepingTrack.iOS
 
 			return didwork;
 		}
-		public bool AddRace(string rname, string date, string distance)
+		public bool AddRace(string rname, string distance, string date)
 		{
 			bool retval = true;
 
+			DatabaseReference rootNode = Database.DefaultInstance.GetRootReference();
+			DatabaseReference raceNode = rootNode.GetChild("Races").GetChild(App.userID + "--" + rname);
 
+			object[] keys = { "meetName", "eventName", "date" };
+			object[] values = { rname, distance, date };
+			var newAthlete = NSDictionary.FromObjectsAndKeys(values, keys, keys.Length);
+
+
+
+			raceNode.SetValue<NSDictionary>(newAthlete);
 
 
 
 			return retval;
 
 		}
-
-		public Dictionary<string, Race> GetRaces()
+		public void AddRunnerToRace(athleteInfo[] aInfo, string rname)
 		{
+			DatabaseReference rootNode = Database.DefaultInstance.GetRootReference();
+			DatabaseReference raceNode = rootNode.GetChild("AthletesInRaces").GetChild(App.userID + "--" + rname);
+			/*object[] keys;
+			object[] vals;
+			int itr = 0;*/
+			IDictionary<NSObject, NSObject> athDict= new NSMutableDictionary();
+			foreach (athleteInfo a in aInfo)
+			{
+				athDict.Add((NSString)a.name, (NSString)a.rID);
+			}
 
-			Dictionary<string, Race> r = new Dictionary<string, Race>();
-
-			r.Add("1", new Race("1", "2", "3"));
+			//var newAthlete = NSDictionary.FromObjectsAndKeys(values, keys, keys.Length);
 
 
-			return r;
+
+			raceNode.SetValue<NSDictionary>((NSDictionary)athDict);
 		}
-		//DatabaseReference AperCoach = rootNode.GetChild("AthletesOnTeam").GetChild(cID);
 
+
+
+
+		public void GetRaces(Dictionary<string, Race> rcs)
+		{
+			NSDictionary dict;
+			DatabaseReference rootNode = Database.DefaultInstance.GetRootReference();
+			DatabaseReference racesNode = rootNode.GetChild("Races");
+			//string teamName="CarthageW";
+			racesNode.ObserveSingleEvent(DataEventType.Value, (snapshot) =>
+						{
+							dict = snapshot.GetValue<NSDictionary>();
+							object[] keys = dict.Keys;
+							string a, c;
+							int b;
+							
+							foreach (object k in keys)
+							{
+								object val = dict.ValueForKey((NSString)k);
+								//rcs.Add(val.ToString(), k.ToString());
+							}
+
+						}, (error) =>
+						{
+							Console.WriteLine(error.LocalizedDescription);
+						});
+
+
+
+			//DatabaseReference AperCoach = rootNode.GetChild("AthletesOnTeam").GetChild(cID);
+		}
 	}
 }

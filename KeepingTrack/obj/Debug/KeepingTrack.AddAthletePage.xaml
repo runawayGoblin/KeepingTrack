@@ -1,34 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage Title="Add Athlete" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KeepingTrack.AddAthletePage" BackgroundColor="#3498DB" >
+<ContentPage Title="Add Athlete" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KeepingTrack.AddAthletePage" BackgroundColor="#3498DB">
 	<ContentPage.Content>
-		<StackLayout VerticalOptions="StartAndExpand" Padding="35" >
+		
+		<StackLayout VerticalOptions="StartAndExpand" Padding="35">
+			<!--Label x:Name="titleHeader" HorizontalOptions="Center" Text="Create Athlete" TextColor="White" FontSize="25" /-->
+			<Label x:Name="fnameLbl" Text="First Name"  TextColor="White" />
+			<Entry x:Name="fnameEnt" Placeholder="Example" TextColor="#3498DB" />
+			<Label x:Name="fnameSPACE" Text="FILLER" FontSize="23" TextColor="#3498DB" IsVisible="false" />
 
+			<Label x:Name="lnameLbl" Text="Last Name" TextColor="White" />
+			<Entry x:Name="lnameEnt" Placeholder="Athlete" TextColor="#3498DB" />
+			<Label x:Name="lnameSPACE" Text="FILLER" FontSize="23" TextColor="#3498DB" IsVisible="false" />
 
-			<Label HorizontalOptions="Center" Text="Create Athlete" TextColor="White" FontSize="25"/>
-			
-			<Label x:Name="fnameLbl" Text="First Name" TextColor="White"/>
-			<Entry x:Name="fnameEnt" Placeholder="Example" TextColor="#3498DB"/>
+			<Label x:Name="emailLbl" Text="Email Adress" TextColor="White" />
+			<Entry x:Name="emailEnt" Placeholder="axample@school.edu" TextColor="#3498DB" />
+			<Label x:Name="emailSPACE"  FontSize="23" Text="FILLER" TextColor="#3498DB" IsVisible="false" />
 
-			<Label x:Name="lnameLbl" Text="Last Name" TextColor="White"/>
-			<Entry x:Name="lnameEnt" Placeholder="Athlete" TextColor="#3498DB"/>
-
-			<Label x:Name="emailLbl" Text="First Name" TextColor="White"/>
-			<Entry x:Name="emailEnt" Placeholder="axample@school.edu" TextColor="#3498DB"/>
-			
-			<Label x:Name="GradeLbl" Text="Grade" TextColor="White" />
-			<Picker x:Name="GradePkr" Title="Grade" TextColor="#3498DB" HorizontalOptions="FillAndExpand"  >
+			<Label x:Name="GradeLbl" Text="Gradutating Year" TextColor="White" />
+			<Picker x:Name="GradePkr" Title="Grade" TextColor="#3498DB" HorizontalOptions="FillAndExpand">
 				<Picker.Items>
-					<x:String>Freshman</x:String>
-					<x:String>Sophmore</x:String>
-					<x:String>Junior</x:String>
-					<x:String>Senior</x:String>
+					<x:String>2017</x:String>
+					<x:String>2018</x:String>
+					<x:String>2019</x:String>
+					<x:String>2020</x:String>
+					<x:String>2021</x:String>
 				</Picker.Items>
 			</Picker>
+			<Label x:Name="gradeSPACE" Text="FILLER" TextColor="#3498DB" IsVisible="false" />
 			<Label x:Name="fakeOut" Text="First Name" FontSize="35" TextColor="#3498DB" />
-			
-
 			<Button x:Name="creatAthleteBtn" Clicked="onAddAthlete" HorizontalOptions="Center" Text="Add Athlete" BackgroundColor="White" WidthRequest="200.0" />
-
+			<Button x:Name="editAthBtn" IsVisible="false" Clicked="onEditAthlete" HorizontalOptions="Center" Text="Edit Athlete" BackgroundColor="White" WidthRequest="200.0"  />
+			
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

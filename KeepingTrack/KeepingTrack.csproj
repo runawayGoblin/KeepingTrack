@@ -97,6 +97,7 @@
     </Compile>
     <Compile Include="AuthDependency\IFirebaseDb.cs" />
     <Compile Include="Race.cs" />
+    <Compile Include="athleteInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

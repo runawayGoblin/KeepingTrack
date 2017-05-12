@@ -20,13 +20,17 @@ namespace KeepingTrack {
         private global::Xamarin.Forms.Switch RaceSwitch;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.TableView RacesTableVivew;
+        private global::Xamarin.Forms.ListView rosterLView;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button newAthBtn;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(RosterPage));
             RaceSwitch = this.FindByName <global::Xamarin.Forms.Switch>("RaceSwitch");
-            RacesTableVivew = this.FindByName <global::Xamarin.Forms.TableView>("RacesTableVivew");
+            rosterLView = this.FindByName <global::Xamarin.Forms.ListView>("rosterLView");
+            newAthBtn = this.FindByName <global::Xamarin.Forms.Button>("newAthBtn");
         }
     }
 }

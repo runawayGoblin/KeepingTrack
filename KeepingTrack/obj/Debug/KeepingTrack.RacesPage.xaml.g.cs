@@ -17,12 +17,16 @@ namespace KeepingTrack {
     public partial class RacesPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.TableView RacesTView;
+        private global::Xamarin.Forms.ListView racesLView;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button newRaceBtn;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(RacesPage));
-            RacesTView = this.FindByName <global::Xamarin.Forms.TableView>("RacesTView");
+            racesLView = this.FindByName <global::Xamarin.Forms.ListView>("racesLView");
+            newRaceBtn = this.FindByName <global::Xamarin.Forms.Button>("newRaceBtn");
         }
     }
 }

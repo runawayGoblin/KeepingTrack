@@ -5,9 +5,9 @@
 			<Label x:Name="TimeLbl" HorizontalOptions="CenterAndExpand" Text="00:00.00" Font="60" TextColor="White"/>
 			<Label Text="FILLERAF" FontSize="20" TextColor="#3498DB"/>
 
-			<Button x:Name="StartLapBtn" Text="Start" BackgroundColor="White" WidthRequest="200.0" Clicked="StartStopClick" TextColor="#3498DB"/>
-			<Button x:Name="MaddieBtn" Text="Maddie" BackgroundColor="White" WidthRequest="200.0" Clicked="LapClick" TextColor="#3498DB"/>
-			<Button x:Name="KaylieBtn" Text="Kaylie" BackgroundColor="White" WidthRequest="200.0" Clicked="LapClick" TextColor="#3498DB"/>
+			<Button x:Name="StartLapBtn" Text="Start" BackgroundColor="White" WidthRequest="300.0" Clicked="StartStopClick" TextColor="#3498DB"/>
+			<Button x:Name="MaddieBtn" Text="Shannon" BackgroundColor="White" WidthRequest="200.0" Clicked="LapClick" TextColor="#3498DB"/>
+			<Button x:Name="KaylieBtn" Text="Jenny" BackgroundColor="White" WidthRequest="200.0" Clicked="LapClick" TextColor="#3498DB"/>
 			<Label x:Name="SplitsLabel" Text="Splits" TextColor="White" IsVisible="false" />
 			<Label x:Name="KLabel" Text="Splits" TextColor="White" IsVisible="false" />
 			<Label x:Name="MLabel" Text="Splits" TextColor="White" IsVisible="false" />

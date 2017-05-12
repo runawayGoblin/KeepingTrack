@@ -7,13 +7,16 @@ namespace KeepingTrack
 
 		bool AddRunnerToDB(string email, string fname, string lname, string year);
 
-		Dictionary<string, Runner> GetRunnersOnTeam(string team);//team will be null if the user ever needs to get all of the runners in the db 
+		void GetRunnersOnTeam(string team, Dictionary<string, string> r);//team will be null if the user ever needs to get all of the runners in the db 
 
 		bool AddRunnerToTeam(string email, string fname, string coachid);
 
+		void AddRunnerToRace(athleteInfo[] ainfo, string rname);
+
 
 		bool AddRace(string rname, string date, string rdistance);
-		Dictionary<string, Race> GetRaces();
+
+		void GetRaces(Dictionary<string, Race> races);
 
 
 	}

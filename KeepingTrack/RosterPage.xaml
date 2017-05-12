@@ -5,7 +5,8 @@
 		<StackLayout VerticalOptions="StartAndExpand" Padding="35">
 			<!--Label Text="Roster" FontAttributes="Bold" HorizontalOptions="Center" FontSize="40" TextColor="White" /-->
 			<Switch x:Name="RaceSwitch" />
-			<TableView x:Name="RacesTableVivew" />
+			<ListView x:Name="rosterLView" />
+			<Button x:Name="newAthBtn" HorizontalOptions="End" Text="New Athlete" Clicked="onNewAthlete" BackgroundColor="White" WidthRequest="200.0" />
 			
 		</StackLayout>
 	</ContentPage.Content>

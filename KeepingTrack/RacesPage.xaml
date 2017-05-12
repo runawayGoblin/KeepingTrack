@@ -5,7 +5,8 @@
 		<StackLayout  VerticalOptions="StartAndExpand" Padding="35">
 			<!--Label Text="Races" HorizontalOptions="Center" TextColor="White" FontAttributes="Bold" FontSize="40"/-->
 			<Switch  />
-			<TableView x:Name="RacesTView" />
+			<ListView x:Name="racesLView" />
+			<Button x:Name="newRaceBtn" HorizontalOptions="End" Text="New Race" Clicked="onNewRace" BackgroundColor="White" WidthRequest="200.0" />
 			
 		</StackLayout>
 	</ContentPage.Content>

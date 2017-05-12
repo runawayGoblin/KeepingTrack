@@ -19,7 +19,7 @@ namespace KeepingTrack.iOS
 
 		//CHANGES
 		//changes this to a string, rather than bool 
-		public void signUp(string email, string password, object userR, string errorR)
+		public void signUp(string email, string password)
 		{
 
 			//bool didWork = true; // RETURN THIS TO SEE IF THE SIGN UP WORKED
@@ -35,7 +35,7 @@ namespace KeepingTrack.iOS
 						errorCode = (AuthErrorCode)((int)error.Code);
 
 					Console.Write(errorCode.ToString());
-					errorR = errorCode.ToString();
+
 
 					// Posible error codes that CreateUser method could throw
 					switch (errorCode)
@@ -53,8 +53,6 @@ namespace KeepingTrack.iOS
 				else
 				{
 					// Do your magic to handle authentication result
-					userR = user.Email;
-
 				}
 			});
 
